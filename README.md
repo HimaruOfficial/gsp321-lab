@@ -18,14 +18,7 @@ Karena script ini menggunakan perintah `gcloud` tingkat lanjut yang memerlukan i
    * Buka Google Cloud Console menggunakan akun *Username 1*.
    * Klik ikon **Cloud Shell** (terminal `>_`) di pojok kanan atas Cloud Console.
 
-2. **Lakukan Autentikasi Akun (Penting)**
-   * Ketik perintah di bawah ini di terminal Cloud Shell untuk masuk ke akun project yang aktif, lalu tekan `Enter` (jika muncul konfirmasi pilihan akun atau persetujuan, ketik `Y` atau pilih akun yang sesuai):
-     ```bash
-     gcloud auth login
-     ```
-        *konfirmasi dan allow aja nanti keluar link lu copy aja terus tempel di terminal kan sesudah enter y nah disitu lu isi aja yang baru aja di copy dan tempel disitu enter deh 
-
-3. **Salin dan Jalankan Perintah Link Raw**
+2. **Salin dan Jalankan Perintah Link Raw**
    * Salin perintah *one-liner* (satu baris) berikut, lalu tempel (*paste*) langsung ke dalam terminal Cloud Shell Anda:
      ```bash
      curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp321-pro.sh && chmod +x gsp321-pro.sh && ./gsp321-pro.sh
