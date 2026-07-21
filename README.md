@@ -50,11 +50,12 @@ Task 8 (Uptime Check) memerlukan tindakan manual di panel Monitoring. Setelah sc
 1. Cari menu **Uptime Checks** di kolom pencarian Google Cloud Console.
 2. Klik tombol **+ CREATE UPTIME CHECK**.
 3. Atur konfigurasi berikut:
-   * **Protocol:** `HTTP`
-   * **Resource Type:** `URL`
-   * **Hostname:** Masukkan *External IP* dari service WordPress (IP ini otomatis dicetak oleh script di bagian akhir terminal Anda).
-   * **Path:** `/` (biarkan default).
-4. Klik **Continue**, lalu klik **Test** (pastikan muncul centang hijau).
+   * **Protocol:** `HTTP`
+   * **Resource Type:** `URL`
+   * **Title:** Masukkan nilai *External IP* dari service WordPress sebagai nama judulnya (IP ini otomatis dicetak oleh script di bagian akhir terminal Anda).
+   * **Hostname:** Masukkan *External IP* dari service WordPress tersebut.
+   * **Path:** `/` (biarkan default).
+4. Klik tombol **Continue**, lalu klik **Test** (pastikan muncul centang hijau).
 5. Klik **Create**.
 6. Kembali ke halaman Qwiklabs dan klik **Check my progress** pada Task 8.
 
