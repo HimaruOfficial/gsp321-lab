@@ -32,7 +32,7 @@ Karena script ini menggunakan perintah `gcloud` tingkat lanjut yang memerlukan i
 3. **Salin dan Jalankan Perintah Link Raw**
    * Setelah berhasil login, salin perintah *one-liner* (satu baris) berikut, lalu tempel (*paste*) langsung ke dalam terminal Cloud Shell Anda:
      ```bash
-     curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp322-lab/refs/heads/main/himaru.sh && chmod +x himaru.sh && ./himaru.sh
+     curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/himaru.sh && chmod +x himaru.sh && ./himaru.sh
      ```
    * **Penjelasan perintah di atas:**
      * `curl -LO [link_raw]` berfungsi untuk mengunduh file script `himaru.sh` langsung secara mentah (*raw*) dari repository GitHub. *(Pastikan link URL di atas sudah disesuaikan dengan link raw di repository Anda)*.
