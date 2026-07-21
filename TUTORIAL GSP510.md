@@ -61,4 +61,4 @@ Karena script ini menggunakan perintah `gcloud` tingkat lanjut (termasuk interak
    Buka **Google Cloud Shell**, lalu jalankan perintah satu baris berikut:
 
 ```bash
-curl -LO [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<USERNAME-GITHUB-KAMU>/<NAMA-REPO-KAMU>/main/himaru.sh && chmod +x himaru.sh && ./himaru.sh
+curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gspg510.sh && chmod +x himaru.sh && ./himaru.sh
