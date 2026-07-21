@@ -20,8 +20,7 @@ Karena script ini menggunakan perintah `gcloud` tingkat lanjut yang memerlukan i
 
 2. **Lakukan Autentikasi Akun (`gcloud auth login`)**
    * Ketik perintah di bawah ini di terminal Cloud Shell, lalu tekan `Enter`:
-     ```bash
-     gcloud auth login
+     ```gcloud auth login
      ```
    * Terminal akan memunculkan sebuah link URL panjang dan pertanyaan konfirmasi. Tekan `Y` (Yes) atau *Ctrl + Klik* pada link tersebut untuk membukanya di browser.
    * Di tab browser baru, login menggunakan akun Google Qwiklabs yang aktif.
