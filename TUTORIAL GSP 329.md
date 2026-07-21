@@ -60,4 +60,4 @@ Karena script ini menggunakan perintah `gcloud` untuk pembuatan IAM, Service Acc
    Buka **Google Cloud Shell**, lalu jalankan perintah satu baris berikut:
 
 ```bash
-curl -LO [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<USERNAME-GITHUB-KAMU>/<NAMA-REPO-KAMU>/main/gsp329.sh && chmod +x gsp329.sh && ./gsp329.sh
+curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp329.sh && chmod +x gsp329.sh && ./gsp329.sh
