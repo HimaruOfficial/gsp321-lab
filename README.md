@@ -23,11 +23,12 @@ Karena script ini menggunakan perintah `gcloud` tingkat lanjut yang memerlukan i
      ```bash
      gcloud auth login
      ```
+        *konfirmasi dan allow aja nanti keluar link lu copy aja terus tempel di terminal kan sesudah enter y nah disitu lu isi aja yang baru aja di copy dan tempel disitu enter deh 
 
 3. **Salin dan Jalankan Perintah Link Raw**
    * Salin perintah *one-liner* (satu baris) berikut, lalu tempel (*paste*) langsung ke dalam terminal Cloud Shell Anda:
      ```bash
-     curl -LO [https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp321-pro.sh](https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp321-pro.sh) && chmod +x gsp321-pro.sh && ./gsp321-pro.sh
+     curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp321-pro.sh && chmod +x gsp321-pro.sh && ./gsp321-pro.sh
      ```
    * **Penjelasan perintah di atas:**
      * `curl -LO [link_raw]` berfungsi untuk mengunduh file script `gsp321-pro.sh` langsung secara mentah (*raw*) dari repository GitHub.
