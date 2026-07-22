@@ -1,0 +1,62 @@
+# 🚀 GSP528 - Connecting Cloud Networks with NCC: Challenge Lab
+
+![HIMARUSETUP Banner](https://img.shields.io/badge/HIMARUSETUP-AUTOMATION-cyan?style=for-the-badge)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Bash Shell](https://img.shields.io/badge/Bash_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Network Connectivity Center](https://img.shields.io/badge/Networking-0052CC?style=for-the-badge&logo=googlecloud&logoColor=white)
+
+Script otomatisasi serbaguna dengan tampilan antarmuka *Hacker/Matrix* interaktif di terminal, indikator berjalan, serta deteksi region otomatis tanpa menyimpan data pribadi/sensitif.
+
+---
+
+## 📌 Deskripsi
+
+Script ini dirancang untuk menyelesaikan secara otomatis tugas-tugas pada **Qwiklabs / Google Cloud Skill Boost GSP528**:
+- **Task 1:** Membuat Network Connectivity Center (NCC) Hub dan menyambungkan 2 On-prem VPCs sebagai *Spoke* menggunakan konfigurasi VPN Tunnels yang sudah ada.
+- **Task 2 & 3:** Membuat NCC Hub Hybrid, menyatukan topologi jaringan, dan menyambungkan Workload VPC 1, Workload VPC 2, serta On-Prem Office VPC sebagai *VPC Network Spokes*.
+- **Task 4:** Mengotomatiskan pembuatan aturan Firewall (Firewall Rules) untuk mengizinkan lalu lintas ICMP (Ping).
+- **Task 5:** Melakukan proses hitung mundur (120 detik) untuk propagasi BGP Route dan mengeksekusi uji konektivitas (*Ping Test*) secara otomatis via SSH.
+
+---
+
+## ⚡ Fitur Utama
+
+- 🎨 **Terminal UI Matrix/Hacker**: Menampilkan ASCII Banner `[HIMARUSETUP]` dengan warna terminal interaktif (Cyan, Yellow, Green, Blue).
+- 🔄 **Automasi Full-Cycle**: Menyelesaikan konfigurasi rumit Hub & Spoke NCC, manajemen Firewall, dan SSH *Ping Test* dalam satu kali jalan.
+- 🛠️ **Interactive Input**: Mampu mendeteksi *Region* bawaan Qwiklabs secara otomatis, namun tetap memberikan prompt opsi kepada pengguna untuk memasukkan *Region* manual jika diperlukan.
+- ⏳ **Smart Delay Indicators**: Dilengkapi indikator hitung mundur waktu propagasi rute jaringan sehingga pengguna tidak kebingungan saat script memproses data jaringan di latar belakang.
+
+---
+
+## 🚀 Cara Penggunaan (Quick Start)
+
+## 🛠️ Prasyarat Sebelum Menjalankan Script
+Karena script ini menggunakan perintah `gcloud` untuk manipulasi jaringan tingkat lanjut (VPC, NCC, Firewall), **sangat disarankan** untuk melakukan autentikasi akun terlebih dahulu agar terhindar dari *error permission/denied*.
+
+---
+
+## 📖 Tutorial Cara Penggunaan & Link Raw
+
+### Langkah-Langkah di Cloud Shell Lab:
+
+1. **Start Lab & Buka Cloud Shell**
+   * Mulai lab **GSP528** di Qwiklabs seperti biasa.
+   * Buka Google Cloud Console menggunakan kredensial lab yang diberikan.
+   * Klik ikon **Cloud Shell** (terminal `>_`) di pojok kanan atas Cloud Console.
+
+2. **Lakukan Autentikasi Akun (`gcloud auth login`)**
+   * Ketik perintah di bawah ini di terminal Cloud Shell, lalu tekan `Enter`:
+     ```bash
+     gcloud auth login
+     ```
+   * Terminal akan memunculkan sebuah link URL panjang dan pertanyaan konfirmasi. Tekan `Y` (Yes) atau *Ctrl + Klik* pada link tersebut untuk membukanya di browser.
+   * Di tab browser baru, login menggunakan akun Google Qwiklabs yang aktif.
+   * Klik **Allow / Continue / Confirm** untuk memberikan izin akses.
+   * Anda akan diberikan sebuah **kode verifikasi (verification code)**. Klik tombol **Copy** pada kode tersebut.
+   * Kembali ke terminal Cloud Shell, **paste (tempel)** kode verifikasi yang sudah di-copy tadi ke dalam terminal, lalu tekan `Enter`.
+
+3. **Jalankan Script**
+   Buka **Google Cloud Shell**, lalu jalankan perintah satu baris berikut:
+
+```bash
+curl -LO [https://raw.githubusercontent.com/HimaruOfficial/gsp528-lab/refs/heads/main/himarusetup.sh](https://raw.githubusercontent.com/HimaruOfficial/gsp528-lab/refs/heads/main/himarusetup.sh) && chmod +x himarusetup.sh && ./himarusetup.sh
