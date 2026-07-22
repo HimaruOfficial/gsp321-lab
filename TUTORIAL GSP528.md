@@ -1,3 +1,4 @@
+
 # 🚀 GSP528 - Connecting Cloud Networks with NCC: Challenge Lab
 
 ![HIMARUSETUP Banner](https://img.shields.io/badge/HIMARUSETUP-AUTOMATION-cyan?style=for-the-badge)
@@ -59,4 +60,4 @@ Karena script ini menggunakan perintah `gcloud` untuk manipulasi jaringan tingka
    Buka **Google Cloud Shell**, lalu jalankan perintah satu baris berikut:
 
 ```bash
-curl -LO [https://raw.githubusercontent.com/HimaruOfficial/gsp528-lab/refs/heads/main/himarusetup.sh](https://raw.githubusercontent.com/HimaruOfficial/gsp528-lab/refs/heads/main/himarusetup.sh) && chmod +x himarusetup.sh && ./himarusetup.sh
+curl -LO https://raw.githubusercontent.com/HimaruOfficial/gsp321-lab/refs/heads/main/gsp528.sh && chmod +x gsp528.sh && ./gsp528.sh
